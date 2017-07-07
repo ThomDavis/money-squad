@@ -10,7 +10,10 @@
       body {
         background: #FBEBAD;
         font: 15px/22px Georgia, "Times New Roman", serif;     
-      } 
+      }
+      .center {
+          text-align: center;
+      }
         .main {
         min-height: 700px;
         position: absolute;
@@ -29,10 +32,7 @@
       }
       .footer {   
         bottom: 20px;      
-      }      
-        h1 {
-          font-size: 35px;
-        }
+      }
     </style>
 </head>
 
@@ -41,53 +41,50 @@
   <div class="container">
       <div class="row">
         <div class="col-3">
-          3
-          <!-- This content will take up 3/12 (or 1/4) of the container -->
         </div>
-        <div class="col-3">
-          3
-          <!-- This content will take up 3/12 (or 1/4) of the container -->
+
+        <div class="col-6 center">
+            <h1>Sprint 14</h1>
         </div>
-        <div class="col-6">
-          6
-          <!-- This content will take up 6/12 (or 1/2) of the container -->
-        </div>
+          <div class="col-3">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-2">
+          </div>
+
+          <div class="col-8">
+              <ul>
+                  <li> Automated ACH </li>
+                  <li> Add Transfer group to all Stripe transactions (so Stripe won't shut us down again) </li>
+                  <li> The ability to change admin fee for a business or position</li>
+                  <li> Remove Omnipay payment processing library and replace with our universal interface. </li>
+                  <li> Allow employers to add an account number to jobs. </li>
+                  <li> Add ledger item adjustments for missing FIT. </li>
+                  <li> Require bank accounts to be verified before an employee payout can be processed. </li>
+                  <li> Add insights dashboard to get an analytical overview of our payments and payouts. </li>
+                  <li> Add checks around updating pending payment statuses. </li>
+                  <li> Provide employee’s YTD earnings when calculating taxes on new shifts. </li>
+                  <li> Provide employee’s YTD earnings when calculating taxes on new shifts. </li>
+                  <li> Add verification deposits to payment provider interfaces. </li>
+                  <li> Do live testing around Stripe ACH transfers. </li>
+
+              </ul>
+          </div>
+          <div class="col-2">
+
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-3">
+          </div>
+
+          <div class="col-6 center">
+              <a href="/"><img class="footer" src="/small_dolla.png" border="0"></a>
+          </div>
+          <div class="col-3">
+          </div>
       </div>
     </div>
-  
-  <div class="main">
-     
-        <h1>Sprint 14</h1>
-    <ul>
-         <li> Automated ACH </li>
-         <li> Automated ACH </li>
-       </ul>
-    
-         <div class="sprint">
-      
-       <p> Automated ACH </p>
-       <ul>
-         <li> Automated ACH </li>
-         <li> Automated ACH </li>
-       </ul>
-Add Transfer group to all Stripe transactions (so Stripe won't shut us down again) <br/>
-The ability to change admin fee for a business or position <br/>
-Remove Omnipay payment processing library and replace with our universal interface. <br/>
-Allow employers to add an account number to jobs. <br/>
-Add ledger item adjustments for missing FIT. <br/>
-Require bank accounts to be verified before an employee payout can be processed. <br/>
-Add insights dashboard to get an analytical overview of our payments and payouts. <br/>
-Add checks around updating pending payment statuses. <br/>
-Provide employee’s YTD earnings when calculating taxes on new shifts. <br/>
-Add verification deposits to payment provider interfaces. <br/>
-Do live testing around Stripe ACH transfers. <br/>
-       
-      </div>
-    <a href="/"><img class="footer" src="/small_dolla.png" border="0"></a>
-  </div>
-     
-
-  
-  
 </body>
 </html>
